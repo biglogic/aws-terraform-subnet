@@ -2,29 +2,29 @@
 variable "vpcid" {}
 
 variable "subnetpub_1_cidr" {
-    type = string
+  type = string
 }
 
 variable "subnetpbmap" {
-    type = bool
+  type = bool
 }
 
 variable "subnetavai_1" {
-    type = string
+  type = string
 }
 
 variable "subnetavai_2" {
-     type = string
+  type = string
 }
 
 variable "subnetpub_2_cidr" {
-    type = string
+  type = string
 }
 
-variable "subnetpvt_1_cidr"{
-    type = string
+variable "subnetpvt_1_cidr" {
+  type = string
 }
 
 variable "subnetpvt_2_cidr" {
-    type = string
+  type = string
 }

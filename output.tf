@@ -1,6 +1,6 @@
 
 output "subpubid" {
-   value = aws_subnet.subnet_public.id
+  value = aws_subnet.subnet_public.id
 }
 
 output "subpubid1" {
@@ -8,7 +8,7 @@ output "subpubid1" {
 }
 
 output "subpvtid1" {
-   value = aws_subnet.subnet_pvt.id
+  value = aws_subnet.subnet_pvt.id
 }
 
 output "subpvtid2" {
